@@ -17,7 +17,7 @@ const TopBar: React.FC = () => {
     return (
         <div className="w-full bg-yellow-100 p-5">
             <div className="container mx-auto flex justify-center items-center gap-5">
-                <h1 className="text-xl font-bold">记忆配对游戏</h1>
+                <h1 className="text-xl font-bold">对对碰</h1>
                 <div className="flex items-center gap-5">
                     <button
                         onClick={() => switchMode()}

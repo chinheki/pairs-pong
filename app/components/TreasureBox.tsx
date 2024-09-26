@@ -42,7 +42,7 @@ const TreasureBox: React.FC<TreasureBoxProps> = ({ player }) => {
 
     return (
         <div className="inline-block border-2 border-gray-800 p-2">
-            <div className="mb-2 text-center font-bold">{PlayerName[player]}的宝箱</div>
+            <div className="mb-2 text-center font-bold">{PlayerName[player]}的对子</div>
             {Array.from({ length: rows }, (_, rowIndex) => renderRow(rowIndex))}
         </div>
     );
