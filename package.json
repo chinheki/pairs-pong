@@ -1,6 +1,6 @@
 {
   "name": "pairs-pong",
-  "private": true,
+  "private": false,
   "sideEffects": false,
    "homepage": "https://chinheki.github.io/pairs-pong/",
   "type": "module",
