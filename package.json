@@ -2,7 +2,7 @@
   "name": "pairs-pong",
   "private": false,
   "sideEffects": false,
-   "homepage": "https://chinheki.github.io./pairs-pong/",
+   "homepage": "https://chinheki.github.io/pairs-pong/",
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
