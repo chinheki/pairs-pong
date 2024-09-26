@@ -6,7 +6,7 @@ import { renderToString } from "react-dom/server";
 import { createContext, useState, useMemo, useContext, useCallback, useEffect } from "react";
 function handleRequest(request, responseStatusCode, responseHeaders, remixContext) {
   const shellHtml = fs.readFileSync(
-    path.join(process.cwd(), "app/index.html")
+    path.join(process.cwd(), "index.html")
   ).toString();
   const appHtml = renderToString(
     /* @__PURE__ */ jsx(RemixServer, { context: remixContext, url: request.url })
